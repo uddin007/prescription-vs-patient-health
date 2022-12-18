@@ -28,3 +28,15 @@ Apriori algorithm establishes association using three calculated variables:
 * Prescription to health-status **lift** (p -> s) = (confidence (p -> s)/support (s))
 
 This algorithm will also map relation where basis is health-status, those items are eventually filtered out, as we're only looking to map prescription -> health-status
+
+# Results
+Relation between patient health status and drug categories are shown below:
+
+<img width="1147" alt="Screenshot 2022-12-17 at 10 00 15 PM" src="https://user-images.githubusercontent.com/37245809/208279218-25103e16-8836-4a41-87fd-802a52f1ec87.png">
+
+The algorithm is used to predict health-status, for example, for 'Antivirals' prescription, possible health statuses are 'Influenza' and 'Viral infection'. This data is presented with three algorithm parameters i.e. Support, Confidence and Lift.
+
+<img width="712" alt="Screenshot 2022-12-17 at 10 04 42 PM" src="https://user-images.githubusercontent.com/37245809/208279297-2a90ee4e-5c9d-4180-bcb9-bd6bd4562dd4.png">
+
+
+
